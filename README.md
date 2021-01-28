@@ -150,15 +150,26 @@ dann werden die Daten importiert und überprüft
 ### Explorative Datenanalyse
 Verwendung unterschiedlicher Visualisierungen um die Daten zu erforschen
 - Histogramm
+- Heatmap
+- Correlationen
 - Jointplot
 - Pairplot
-### Logistische Regression
-Anwenden der logistischen Regression zur Vorhersage der Kategorie
+### Deep Learning mit neuronalen Netzwerken
+Anwenden des neuronalen Netzwerk Modells
 - Aufsplitten in Trainings- und Testdaten
-- Trainieren und Fitten des Modells auf den Datensatz
+- Skalieren der Daten
+- Erzeugen des Modells:
+  - Angabe der Hidden Layer mit der Anzahl der Neuronen
+  - Angabe der Activation Funktion
+  - Angabe des losses und des optimizers
+- Trainieren und Fitten des Modells auf den Datensatz (mit der Angabe von Epochen)
+Beispiel mit fürherem Abbruch:
+- Einfügen einer Callbackfunktion um Overfitting zu verhindern (im Fitting des Modells)
+Beispiel mit Dropout Layern
+- Einfügen von Dropouts welche die Hidden Layer dezimieren (im Aufsetzen des Modells)
 ### Evaluation der Vorhersage
 Evaluierung über den classification report.
 Es sollten ähnliche Ergebnisse wie diese angezeigt werden:
-- accuracy: 91%
-- reall: 96 und 85%
-- f1-score: 91 und 90 %
+- accuracy: 97%
+- reall: 98 und 95%
+- f1-score: 96 und 97 %
