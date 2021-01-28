@@ -170,6 +170,6 @@ Beispiel mit Dropout Layern
 ### Evaluation der Vorhersage
 Evaluierung über den classification report.
 Es sollten ähnliche Ergebnisse wie diese angezeigt werden:
-- accuracy: 97%
-- reall: 98 und 95%
-- f1-score: 96 und 97 %
+- accuracy: 94%
+- reall: 98 und 92%
+- f1-score: 93 und 95%
